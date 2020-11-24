@@ -75,6 +75,8 @@
                     <phase>package</phase>
                     <goals><goal>copy</goal></goals>
                     <configuration>
+                    	<source>${java.version}</source>
+                    	<target>${java.version}</target>
                         <artifactItems>
                             <artifactItem>
                                 <groupId>com.github.jsimone</groupId>
